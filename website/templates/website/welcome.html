@@ -1,0 +1,194 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slider</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<style>
+		img {
+		    height: 100vh;
+		    background-position: center;
+		    object-fit: cover;
+		}
+
+		#a{
+			width: 83%;
+		    height: 70%;
+		    position: absolute;
+		    margin-top: -39%;
+		    margin-left: 8%;
+		    background-color: #3f3a3a29;
+		    z-index: 2;
+		    box-shadow: 6px 6px 10px 0px;
+		}
+
+		.textbox{
+			width: 34%;
+		    overflow: hidden;
+		    font-size: 20px;
+		    padding: 8px 0;
+		    margin: 50px 0;
+		    margin-left: 39px;
+		    border-bottom: 1px solid lightyellow;
+		    font-family: cursive;
+		}
+
+		.textbox i{
+			font-size: 26px;
+		    width: 50px;
+		    margin-top: 9%;
+   			margin-left: 0%;
+		    color: #b40202;
+		    text-align: center;
+		}
+
+		.textbox input{
+			border: none;
+			font-size:21px;
+		    outline: none;
+		    background: none;
+		    float: left;
+		    position: absolute;
+		    margin-top: 3%;
+		}
+
+		::placeholder{
+		color: lightyellow;
+		font-family: cursive;
+		}
+
+		.vl {
+			border-left: 2px solid lightyellow;
+		    height: 60%;
+		    position: absolute;
+		    margin-top: -23%;
+		    margin-left: 51.4%;
+		}
+
+		.choice{
+			margin-left: 500px;
+		}
+
+		h1{
+			font-family: "Comic Sans MS";
+			font-style: italic;
+		    position: relative;
+			margin-top: -52%;
+   			margin-left: 23%;
+		    color: lightyellow;
+		    text-decoration: underline;
+			}
+			
+		.check {
+		    margin: 0% auto;
+   			margin-left: 23%;
+		    position: relative;
+		    padding-top: 20px;
+		    display: block;
+		    color: lightyellow;
+		    font-family: cursive;
+			font-size: 19px;
+		}
+		
+
+		.check1 {
+	    	margin-top: -52%;
+		    margin-left: 66%;
+		    padding-top: 201px;
+		    position: relative;
+		    display: block;
+		    color: lightyellow;
+		    font-family: cursive;
+			font-size: 19px;
+		}
+
+		#submit{
+			margin-top: 210px;
+		    margin-left: 740px;
+		    position: absolute;
+		    background-color: lightyellow;
+		    width: 210px;
+		    height: 50px;
+		    font-family: "Comic Sans MS";
+			font-size: 19px;
+			text-align:center;
+		    border-radius: 25px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000">
+	  <div class="carousel-inner" >
+	    <div class="carousel-item active">
+	        <img src="{% static 'website/images/green.jpg' %}" class="d-block w-100">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="{% static 'website/images/hampi.jpg' %}" class="d-block w-100">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="{% static 'website/images/jog.jpg' %}" class="d-block w-100">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="{% static 'website/images/hill.jpg' %}" class="d-block w-100">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="{% static 'website/images/om-beach.png.jpg' %}" class="d-block w-100">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="{% static 'website/images/bandipur.jpg' %}" class="d-block w-100">
+	    </div>
+	  </div>
+	</div>
+
+	<form id="a" action="POST">
+			<div class="textbox">
+				<i class="fa fa-map-marker" aria-hidden="false"></i>
+				<b><input type="text" placeholder="Source"></b>
+			</div>
+			<div class="textbox">
+				<i class="fa fa-map-marker" aria-hidden="true"></i>
+				<b><input type="text" placeholder="Destination"></b>
+			</div>
+			<div class="vl"></div>
+			<div class="choice">
+				<h1>Select your choice</h1>
+				<div class="check">
+					<input type="checkbox" id="category" name="Spiritual" >
+					<label> Spiritual</label><br>
+				</div>
+				<div class="check">
+					<input type="checkbox" id="category" name="Heritage" >
+					<label> Heritage</label><br>
+				</div>
+				<div class="check">
+					<input type="checkbox" id="category" name="Trekking" >
+					<label> Trekking</label><br>
+				</div>
+				<div class="check">
+					<input type="checkbox" id="category" name="Water" >
+					<label> Rivers & Waterfalls</label><br>
+				</div>
+				<div class="check1">
+					<input type="checkbox" id="category1" name="Beach" >
+					<label> Beach</label><br>
+				</div>
+				<div class="check1">
+					<input type="checkbox" id="category1" name="HillStation" >
+					<label> Hill Station</label><br>
+				</div>
+				<div class="check1">
+					<input type="checkbox" id="category1" name="Wildlife" >
+					<label> Wildlife</label><br>
+				</div>
+			</div>
+			<input type="submit" id="submit" name="submit" value="GO">
+		</form>
+
+</body>
+
+</html>
