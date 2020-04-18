@@ -7,6 +7,7 @@ import time
 
 bucket_size=500
 last=[]
+distance={}
 
 def getwaypoints(source,destination,preferences):
     waypoints=[]
@@ -16,7 +17,8 @@ def getwaypoints(source,destination,preferences):
         for w in wp:
             waypoint.append(w.name)
         waypoints.append(waypoint)
-    print(len(waypoints))
+    print("-----ROUTE GENERATION-----")
+    print("Number of preferences",len(waypoints))
     return waypoints
 
 def combinations_waypoints(source,destination,preferences):
@@ -26,14 +28,14 @@ def combinations_waypoints(source,destination,preferences):
     comb=[]
     for i in range(0,ini_len):
         comb=comb+list(itertools.product(*waypoints[i:i+ini_len]))
-    print(len(comb))
+    print("Number of combinations",len(comb))
     return comb
 
 def find_distance(wp1,wp2):
-    if(Distance.objects.filter(waypoint1_waypoint2= wp1+'-'+wp2).exists()):
-        return Distance.objects.filter(waypoint1_waypoint2= wp1+'-'+wp2)[0].distance_m
-    elif(Distance.objects.filter(waypoint1_waypoint2= wp2+'-'+wp1).exists()):
-        return Distance.objects.filter(waypoint1_waypoint2= wp2+'-'+wp1)[0].distance_m
+    if(wp1+'-'+wp2 in distance.keys()):
+        return distance[wp1+'-'+wp2]
+    elif(wp2+'-'+wp1 in distance.keys()):
+        return distance[wp2+'-'+wp1]
     else:
         print("Calculating dist between "+wp1+"-"+wp2)
         return calc_distance(wp1,wp2)
@@ -70,13 +72,15 @@ def find_path(source,destination,combinations):
                 way=list(combination)
         else:
             continue
-    print(way)
     last.append(way)
     return way
 
 def thread_create(source,destination,preferences):
     start=time.time()
     combinations=combinations_waypoints(source,destination,preferences)
+    global last
+    last=[]
+    create_dict()
     lst_thread=[]
     l=len(combinations)
     for i in range(0,l,bucket_size):
@@ -89,7 +93,7 @@ def thread_create(source,destination,preferences):
     for thread in lst_thread:
         thread.join()
 
-    print(len(last))
+    print("Length after threading",len(last))
     final=find_path(source,destination,last)
     print("FINAL",final)
     end=time.time()
