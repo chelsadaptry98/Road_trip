@@ -38,28 +38,36 @@ def find_distance(wp1,wp2):
         return distance[wp2+'-'+wp1]
     else:
         print("Calculating dist between "+wp1+"-"+wp2)
-        return calc_distance(wp1,wp2)
+        dist=calc_distance(wp1,wp2)
+        return dist
 
 def calc_distance(waypoint1,waypoint2):
-    gmaps = googlemaps.Client(key="AIzaSyCV8CpdE2Zcfz4DoF45-fbgqAuil25ooQI")
+    gmaps = googlemaps.Client(key="YOUR KEY")
     try:
         route = gmaps.distance_matrix(origins=[waypoint1],destinations=[waypoint2],mode="driving",language="English",units="metric")
-        distance = route["rows"][0]["elements"][0]["distance"]["value"]
-        print(distance,waypoint1,waypoint2)
+        dist = route["rows"][0]["elements"][0]["distance"]["value"]
+        print(dist,waypoint1,waypoint2)
     except Exception as e:
         print("Error with finding the route between %s and %s." % (waypoint1, waypoint2))
         return -1
-    Distance.objects.create(waypoint1_waypoint2=waypoint1+'-'+waypoint2,distance_m=distance).save()
-    return distance
+    Distance.objects.create(waypoint1_waypoint2=waypoint1+'-'+waypoint2,distance_m=dist).save()
+    global distance
+    distance[waypoint1+'-'+waypoint2]=dist
+    return dist
 
 def create_dict():
+    global distance
+    distance={}
     for i in Distance.objects.all():
         distance[i.waypoint1_waypoint2]=i.distance_m
+    
 
 def find_path(source,destination,combinations):
     min_dist=9999999
+    way=[]
     for combination in combinations:
         total_dist=find_distance(source,combination[0])
+        i=0
         for i in range(0,len(combination)-1):
             if (find_distance(combination[i],combination[i+1])) == -1 :
                 print(combination[i],combination[i+1])
@@ -81,6 +89,7 @@ def thread_create(source,destination,preferences):
     global last
     last=[]
     create_dict()
+    print("Using in thread_create",type(distance),"with length",len(distance))
     lst_thread=[]
     l=len(combinations)
     for i in range(0,l,bucket_size):
