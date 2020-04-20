@@ -26,5 +26,5 @@ def welcome(request):
     	w = way
     	w.remove(s)
     	w.remove(d)
-    	return render(request,"website/googlemapapi.html", {'waypoints':way,'source':s,'end':d})
+    	return render(request,"website/googlemapapi.html", {'waypoints':w,'source':s,'end':d,'preferences':preferences})
     
