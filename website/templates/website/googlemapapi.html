@@ -8,7 +8,7 @@
       #right-panel {
         font-family: 'Roboto','sans-serif';
         line-height: 30px;
-        padding-left: 10px;
+        
       }
 
       #right-panel select, #right-panel input {
@@ -26,27 +26,40 @@
         height: 100%;
         margin: 0;
         padding: 0;
+        background-image: url('https://vistapointe.net/images/wood-5.jpg');
+        background-size: cover;
       }
       #map {
-        height: 100%;
+        height: 80%;
         float: left;
-        width: 70%;
-        height: 100%;
+        width: 60%;
+        margin-right:5%;
+        margin-left:5%;
+        margin-bottom:10%;
+        margin-top:5%;
+       border-radius: 10px;
+       box-shadow: -5px 5px 9px 0px black;
       }
       #right-panel {
-        margin: 20px;
-        border-width: 2px;
-        width: 20%;
-        height: 400px;
-        float: left;
+        
+        
+        width: 30%;
+        height: 100%;
+        overflow:auto;
         text-align: left;
-        padding-top: 0;
+        padding-top: 2%;
+        margin-bottom: 2%;
+        background-size: cover;
+        background-color:#ccae6c;
+        box-shadow:-5px 3px 12px 0px black;;
+
       }
       #directions-panel {
         margin-top: 10px;
-        background-color: #f1efe3;
+        margin-right:20px;
+        background-color: #f5f4f196;
         padding: 10px;
-        overflow: scroll;
+        overflow: auto;
         height: 174px;
       }
       p{
@@ -56,13 +69,74 @@
         display: block;
         margin-top: -3px;
       }
+      b {
+        font-family: cursive;
+        font-size: 18px;
+      }
+      tr {
+        font-family: cursive;
+        font-size: 14px;
+       
+      }
+
+       #directions-panel::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+ #directions-panel::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+#directions-panel::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 20px;
+}
+
+      /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
     </style>
   </head>
-  <body>
-    <div id="map"></div>
+  <body style='overflow:hidden'>
+    <div id="map" ></div>
     <div id="right-panel">
-    <div>
-    <b>Start:</b>
+    <div style= 'padding-left:10%'>
+    
+    <table  valign="top">
+      <tr  valign="top"><td><b>Source</b></td><td>:</td><td>{{source}}</td></tr>
+      <tr  valign="top"><td><b>Destination</b></td><td>:</td><td>{{end}}</td></tr>
+      <tr  valign="top"><td><b>Preferences</b></td><td>:</td> <td>
+      {% for preference in preferences %}
+         {{preference}} <br>  
+      {% endfor %}
+      </td>
+      </tr>
+       <tr  valign="top"><td><b>Intermediate</b></td><td>:</td><td>
+      {% for way in waypoints %}
+          {{way}} <br>
+      {% endfor %}
+      </tr>
+    </table>
+   <!-- <b>Start:</b>
     <p > {{source}} </p>
     <br>
     <b>Intermediate:</b> <br>
@@ -85,10 +159,21 @@
     
     {% endfor %}
     </div>
+    -->
     <br>
     </div>
-    <b>Directions Panel:</b><br>
-    <div id="directions-panel"></div>
+    <b style= 'padding-left:10%'>Directions Panel:</b><br>
+    <div id="directions-panel" style= 'margin-left:10%;margin-right:20%;font-size:14px;'></div>
+    <br>
+    <table style= 'margin-left:10%' >
+    <tr  valign="top"><td ><b>Best months to travel</b></td><td>:</td><td>
+      {% for month in months %}
+          {{month}} <br>
+      {% endfor %}
+      </tr>
+   
+    </table>
+    <br>
     </div>
     <script>
       function initMap() {
@@ -141,7 +226,7 @@
       }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=yourkey">
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR-KEY&callback=initMap">
     </script>
   </body>
 </html>

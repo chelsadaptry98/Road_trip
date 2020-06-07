@@ -42,7 +42,7 @@ def find_distance(wp1,wp2):
         return dist
 
 def calc_distance(waypoint1,waypoint2):
-    gmaps = googlemaps.Client(key="YOUR KEY")
+    gmaps = googlemaps.Client(key="YOUR_KEY")
     try:
         route = gmaps.distance_matrix(origins=[waypoint1],destinations=[waypoint2],mode="driving",language="English",units="metric")
         dist = route["rows"][0]["elements"][0]["distance"]["value"]

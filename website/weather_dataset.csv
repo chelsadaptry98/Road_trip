@@ -1,0 +1,277 @@
+Place,Month,HighTemp,LowTemp,MeanTemp,Precipitation,Humidity,DewPoint,Wind,Pressure,Visibility
+Bangalore,January,29,16,23,1.0,58,13,4,1013,6
+Bangalore,February,31,18,24,7.5,49,12,4,1011,7
+Bangalore,March,33,20,27,22.6,46,13,4,1009,7
+Bangalore,April,34,22,28,85.6,53,17,3,1007,7
+Bangalore,May,33,22,27,124.8,65,19,5,1006,7
+Bangalore,June,30,21,25,94.8,73,19,8,1006,7
+Bangalore,July,29,20,24,138.3,77,19,9,1006,6
+Bangalore,August,28,20,24,170.0,78,19,7,1007,6
+Bangalore,September,29,20,24,176.6,76,19,6,1008,7
+Bangalore,October,29,20,24,116.9,74,18,4,1010,6
+Bangalore,November,28,18,23,79.2,73,17,3,1011,6
+Bangalore,December,28,17,22,11.2,68,15,4,1012,6
+Mangalore,January,33,21,27,0.6,65,19,8,1011,4
+Mangalore,February,34,22,28,5.0,66,20,8,1011,4
+Mangalore,March,34,24,29,21.7,71,22,8,1010,4
+Mangalore,April,34,25,29,38.0,72,24,8,1009,4
+Mangalore,May,33,25,29,87.7,76,24,9,1008,4
+Mangalore,June,30,24,27,414.9,87,24,9,1007,4
+Mangalore,July,29,23,26,485.2,89,24,10,1008,4
+Mangalore,August,29,23,26,364.4,89,24,9,1008,4
+Mangalore,September,30,23,27,275.5,86,24,8,1009,4
+Mangalore,October,32,23,27,150.8,83,24,7,1009,4
+Mangalore,November,33,23,28,109.6,75,22,7,1009,4
+Mangalore,December,33,22,28,12.1,67,20,8,1010,4
+Mysore,January,34,22,28,85.6,53,17,3,1007,7
+Mysore,February,31,18,24,7.5,49,12,4,1011,7
+Mysore,March,33,20,27,22.6,46,13,4,1009,7
+Mysore,April,34,22,28,85.6,53,17,3,1007,7
+Mysore,May,33,22,27,124.8,65,19,5,1006,7
+Mysore,June,30,21,25,94.8,73,19,8,1006,7
+Mysore,July,29,20,24,138.3,77,19,9,1006,6
+Mysore,August,28,20,24,170.0,78,19,7,1007,6
+Mysore,September,29,20,24,176.6,76,19,6,1008,7
+Mysore,October,29,20,24,116.9,74,18,4,1010,6
+Mysore,November,28,18,23,79.2,73,17,3,1011,6
+Mysore,December,28,17,22,11.2,68,15,4,1012,6
+Chikmagalur,January,33,21,27,0.6,65,19,8,1011,4
+Chikmagalur,February,34,22,28,5.0,66,20,8,1011,4
+Chikmagalur,March,34,24,29,21.7,71,22,8,1010,4
+Chikmagalur,April,34,25,29,38.0,72,24,8,1009,4
+Chikmagalur,May,33,25,29,87.7,76,24,9,1008,4
+Chikmagalur,June,30,24,27,414.9,87,24,9,1007,4
+Chikmagalur,July,29,23,26,485.2,89,24,10,1008,4
+Chikmagalur,August,29,23,26,364.4,89,24,9,1008,4
+Chikmagalur,September,30,23,27,275.5,86,24,8,1009,4
+Chikmagalur,October,32,23,27,150.8,83,24,7,1009,4
+Chikmagalur,November,33,23,28,109.6,75,22,7,1009,4
+Chikmagalur,December,33,22,28,12.1,67,20,8,1010,4
+Uttara Kannada,January,30,13,22,4.7,51,11,5,1013,5
+Uttara Kannada,February,33,15,24,3.5,46,11,6,1011,5
+Uttara Kannada,March,35,18,26,18.4,48,14,6,1009,5
+Uttara Kannada,April,36,20,28,51.8,54,17,7,1007,5
+Uttara Kannada,May,35,21,28,73.3,65,19,10,1006,5
+Uttara Kannada,June,29,21,25,146.4,82,21,13,1005,4
+Uttara Kannada,July,27,20,24,204.0,88,21,14,1006,4
+Uttara Kannada,August,27,20,24,156.8,88,21,11,1007,4
+Uttara Kannada,September,29,19,24,133.2,85,20,8,1007,4
+Uttara Kannada,October,30,19,24,68.5,73,19,5,1009,4
+Uttara Kannada,November,30,17,23,44.5,66,16,6,1011,4
+Uttara Kannada,December,29,14,22,2.1,59,13,6,1012,4
+Kodagu,January,33,21,27,0.6,65,19,8,1011,4
+Kodagu,February,34,22,28,5.0,66,20,8,1011,4
+Kodagu,March,34,24,29,21.7,71,22,8,1010,4
+Kodagu,April,34,25,29,38.0,72,24,8,1009,4
+Kodagu,May,33,25,29,87.7,76,24,9,1008,4
+Kodagu,June,30,24,27,414.9,87,24,9,1007,4
+Kodagu,July,29,23,26,485.2,89,24,10,1008,4
+Kodagu,August,29,23,26,364.4,89,24,9,1008,4
+Kodagu,September,30,23,27,275.5,86,24,8,1009,4
+Kodagu,October,32,23,27,150.8,83,24,7,1009,4
+Kodagu,November,33,23,28,109.6,75,22,7,1009,4
+Kodagu,December,33,22,28,12.1,67,20,8,1010,4
+Belgaum,January,30,13,22,4.7,51,11,5,1013,5
+Belgaum,February,33,15,24,3.5,46,11,6,1011,5
+Belgaum,March,35,18,26,18.4,48,14,6,1009,5
+Belgaum,April,36,20,28,51.8,54,17,7,1007,5
+Belgaum,May,35,21,28,73.3,65,19,10,1006,5
+Belgaum,June,29,21,25,146.4,82,21,13,1005,4
+Belgaum,July,27,20,24,204.0,88,21,14,1006,4
+Belgaum,August,27,20,24,156.8,88,21,11,1007,4
+Belgaum,September,29,19,24,133.2,85,20,8,1007,4
+Belgaum,October,30,19,24,68.5,73,19,5,1009,4
+Belgaum,November,30,17,23,44.5,66,16,6,1011,4
+Belgaum,December,29,14,22,2.1,59,13,6,1012,4
+Shimoga,January,33,21,27,0.6,65,19,8,1011,4
+Shimoga,February,34,22,28,5.0,66,20,8,1011,4
+Shimoga,March,34,24,29,21.7,71,22,8,1010,4
+Shimoga,April,34,25,29,38.0,72,24,8,1009,4
+Shimoga,May,33,25,29,87.7,76,24,9,1008,4
+Shimoga,June,30,24,27,414.9,87,24,9,1007,4
+Shimoga,July,29,23,26,485.2,89,24,10,1008,4
+Shimoga,August,29,23,26,364.4,89,24,9,1008,4
+Shimoga,September,30,23,27,275.5,86,24,8,1009,4
+Shimoga,October,32,23,27,150.8,83,24,7,1009,4
+Shimoga,November,33,23,28,109.6,75,22,7,1009,4
+Shimoga,December,33,22,28,12.1,67,20,8,1010,4
+Chikkaballapur,January,29,16,23,1.0,58,13,4,1013,6
+Chikkaballapur,February,31,18,24,7.5,49,12,4,1011,7
+Chikkaballapur,March,33,20,27,22.6,46,13,4,1009,7
+Chikkaballapur,April,34,22,28,85.6,53,17,3,1007,7
+Chikkaballapur,May,33,22,27,124.8,65,19,5,1006,7
+Chikkaballapur,June,30,21,25,94.8,73,19,8,1006,7
+Chikkaballapur,July,29,20,24,138.3,77,19,9,1006,6
+Chikkaballapur,August,28,20,24,170.0,78,19,7,1007,6
+Chikkaballapur,September,29,20,24,176.6,76,19,6,1008,7
+Chikkaballapur,October,29,20,24,116.9,74,18,4,1010,6
+Chikkaballapur,November,28,18,23,79.2,73,17,3,1011,6
+Chikkaballapur,December,28,17,22,11.2,68,15,4,1012,6
+ChamaraJanuaryagar,January,29,16,23,1.0,58,13,4,1013,6
+ChamaraJanuaryagar,February,31,18,24,7.5,49,12,4,1011,7
+ChamaraJanuaryagar,March,33,20,27,22.6,46,13,4,1009,7
+ChamaraJanuaryagar,April,34,22,28,85.6,53,17,3,1007,7
+ChamaraJanuaryagar,May,33,22,27,124.8,65,19,5,1006,7
+ChamaraJanuaryagar,June,30,21,25,94.8,73,19,8,1006,7
+ChamaraJanuaryagar,July,29,20,24,138.3,77,19,9,1006,6
+ChamaraJanuaryagar,August,28,20,24,170.0,78,19,7,1007,6
+ChamaraJanuaryagar,September,29,20,24,176.6,76,19,6,1008,7
+ChamaraJanuaryagar,October,29,20,24,116.9,74,18,4,1010,6
+ChamaraJanuaryagar,November,28,18,23,79.2,73,17,3,1011,6
+ChamaraJanuaryagar,December,28,17,22,11.2,68,15,4,1012,6
+Mandya,January,29,16,23,1.0,58,13,4,1013,6
+Mandya,February,31,18,24,7.5,49,12,4,1011,7
+Mandya,March,33,20,27,22.6,46,13,4,1009,7
+Mandya,April,34,22,28,85.6,53,17,3,1007,7
+Mandya,May,33,22,27,124.8,65,19,5,1006,7
+Mandya,June,30,21,25,94.8,73,19,8,1006,7
+Mandya,July,29,20,24,138.3,77,19,9,1006,6
+Mandya,August,28,20,24,170.0,78,19,7,1007,6
+Mandya,September,29,20,24,176.6,76,19,6,1008,7
+Mandya,October,29,20,24,116.9,74,18,4,1010,6
+Mandya,November,28,18,23,79.2,73,17,3,1011,6
+Mandya,December,28,17,22,11.2,68,15,4,1012,6
+Haveri,January,31,16,23,0.0,49,11,5,1012,7
+Haveri,February,33,18,25,1.2,42,11,6,1010,7
+Haveri,March,35,20,28,31.8,41,13,6,1008,7
+Haveri,April,37,22,30,40.5,50,17,7,1007,7
+Haveri,May,36,22,29,74.2,59,19,9,1005,7
+Haveri,June,31,21,26,88.7,76,21,12,1005,7
+Haveri,July,29,21,25,83.7,80,21,13,1005,7
+Haveri,August,29,21,25,101.5,80,20,10,1006,7
+Haveri,September,30,21,25,111.0,77,20,8,1007,7
+Haveri,October,31,20,25,82.3,67,18,6,1009,7
+Haveri,November,30,18,24,67.3,64,16,6,1010,7
+Haveri,December,30,16,23,9.8,59,14,6,1011,7
+Ballari,January,32,16,24,7.2,53,14,5,1013,7
+Ballari,February,35,18,27,4.1,44,14,5,1011,7
+Ballari,March,38,22,30,14.4,41,15,5,1009,7
+Ballari,April,40,25,32,33.5,43,18,5,1006,7
+Ballari,May,39,25,32,71.4,49,20,9,1005,7
+Ballari,June,36,24,30,83.3,60,21,14,1004,7
+Ballari,July,34,24,29,82.5,65,21,17,1005,7
+Ballari,August,34,24,29,94.2,67,21,13,1005,7
+Ballari,September,33,23,28,116.4,69,21,8,1006,7
+Ballari,October,33,22,28,79.6,67,20,5,1009,7
+Ballari,November,31,20,25,49.8,69,19,4,1011,6
+Ballari,December,31,17,24,3.7,63,17,5,1012,6
+Udupi,January,33,21,27,0.6,65,19,8,1011,4
+Udupi,February,34,22,28,5.0,66,20,8,1011,4
+Udupi,March,34,24,29,21.7,71,22,8,1010,4
+Udupi,April,34,25,29,38.0,72,24,8,1009,4
+Udupi,May,33,25,29,87.7,76,24,9,1008,4
+Udupi,June,30,24,27,414.9,87,24,9,1007,4
+Udupi,July,29,23,26,485.2,89,24,10,1008,4
+Udupi,August,29,23,26,364.4,89,24,9,1008,4
+Udupi,September,30,23,27,275.5,86,24,8,1009,4
+Udupi,October,32,23,27,150.8,83,24,7,1009,4
+Udupi,November,33,23,28,109.6,75,22,7,1009,4
+Udupi,December,33,22,28,12.1,67,20,8,1010,4
+Dakshina Kannada,January,33,21,27,0.6,65,19,8,1011,4
+Dakshina Kannada,February,34,22,28,5.0,66,20,8,1011,4
+Dakshina Kannada,March,34,24,29,21.7,71,22,8,1010,4
+Dakshina Kannada,April,34,25,29,38.0,72,24,8,1009,4
+Dakshina Kannada,May,33,25,29,87.7,76,24,9,1008,4
+Dakshina Kannada,June,30,24,27,414.9,87,24,9,1007,4
+Dakshina Kannada,July,29,23,26,485.2,89,24,10,1008,4
+Dakshina Kannada,August,29,23,26,364.4,89,24,9,1008,4
+Dakshina Kannada,September,30,23,27,275.5,86,24,8,1009,4
+Dakshina Kannada,October,32,23,27,150.8,83,24,7,1009,4
+Dakshina Kannada,November,33,23,28,109.6,75,22,7,1009,4
+Dakshina Kannada,December,33,22,28,12.1,67,20,8,1010,4
+Bidar,January,31,15,23,0.7,49,12,6,1015,5
+Bidar,February,33,18,25,11.9,43,12,6,1012,5
+Bidar,March,36,21,29,23.9,38,13,7,1010,6
+Bidar,April,39,24,31,29.3,37,15,6,1007,6
+Bidar,May,41,26,34,21.2,33,15,9,1003,6
+Bidar,June,35,24,30,74.0,54,19,14,1002,6
+Bidar,July,32,23,28,102.0,64,20,15,1003,5
+Bidar,August,32,23,27,137.1,70,20,12,1004,5
+Bidar,September,32,22,27,132.3,69,20,9,1006,5
+Bidar,October,32,21,26,53.7,59,17,7,1010,5
+Bidar,November,31,18,24,27.3,56,15,6,1012,5
+Bidar,December,30,16,23,2.1,52,13,5,1014,5
+Kolar,January,29,16,23,1.0,58,13,4,1013,6
+Kolar,February,31,18,24,7.5,49,12,4,1011,7
+Kolar,March,33,20,27,22.6,46,13,4,1009,7
+Kolar,April,34,22,28,85.6,53,17,3,1007,7
+Kolar,May,33,22,27,124.8,65,19,5,1006,7
+Kolar,June,30,21,25,94.8,73,19,8,1006,7
+Kolar,July,29,20,24,138.3,77,19,9,1006,6
+Kolar,August,28,20,24,170.0,78,19,7,1007,6
+Kolar,September,29,20,24,176.6,76,19,6,1008,7
+Kolar,October,29,20,24,116.9,74,18,4,1010,6
+Kolar,November,28,18,23,79.2,73,17,3,1011,6
+Kolar,December,28,17,22,11.2,68,15,4,1012,6
+Hassan,January,33,21,27,0.6,65,19,8,1011,4
+Hassan,February,34,22,28,5.0,66,20,8,1011,4
+Hassan,March,34,24,29,21.7,71,22,8,1010,4
+Hassan,April,34,25,29,38.0,72,24,8,1009,4
+Hassan,May,33,25,29,87.7,76,24,9,1008,4
+Hassan,June,30,24,27,414.9,87,24,9,1007,4
+Hassan,July,29,23,26,485.2,89,24,10,1008,4
+Hassan,August,29,23,26,364.4,89,24,9,1008,4
+Hassan,September,30,23,27,275.5,86,24,8,1009,4
+Hassan,October,32,23,27,150.8,83,24,7,1009,4
+Hassan,November,33,23,28,109.6,75,22,7,1009,4
+Hassan,December,33,22,28,12.1,67,20,8,1010,4
+Chitradurga,January,30,16,23,0.6,54,13,5,1013,7
+Chitradurga,February,33,18,25,4.8,45,12,5,1011,7
+Chitradurga,March,35,21,28,25.2,45,14,5,1009,7
+Chitradurga,April,36,22,29,66.5,53,18,6,1007,7
+Chitradurga,May,34,22,28,104.0,64,20,9,1006,7
+Chitradurga,June,30,21,26,71.1,76,21,11,1006,6
+Chitradurga,July,29,21,25,82.8,82,21,11,1006,6
+Chitradurga,August,28,21,25,119.0,82,21,10,1007,6
+Chitradurga,September,29,20,25,101.6,79,20,8,1008,6
+Chitradurga,October,30,20,25,96.4,72,19,5,1009,6
+Chitradurga,November,29,18,23,89.5,70,17,4,1011,6
+Chitradurga,December,29,16,23,3.9,64,15,5,1012,6
+Bijapur,January,32,16,24,4.4,48,12,2,1013,7
+Bijapur,February,35,19,27,0.7,44,13,2,1011,7
+Bijapur,March,38,22,30,7.1,39,14,3,1009,7
+Bijapur,April,40,25,33,11.5,37,16,3,1006,7
+Bijapur,May,40,26,33,19.9,42,18,4,1004,7
+Bijapur,June,35,24,30,62.2,63,21,4,1003,7
+Bijapur,July,32,23,28,113.7,70,21,4,1003,7
+Bijapur,August,32,23,27,101.0,71,21,3,1005,7
+Bijapur,September,32,23,27,103.8,72,21,3,1006,7
+Bijapur,October,33,21,27,59.5,60,18,2,1009,7
+Bijapur,November,32,19,26,13.3,56,16,2,1011,7
+Bijapur,December,32,16,24,2.3,50,13,2,1013,7
+Bagalkot,January,32,16,24,4.4,48,12,2,1013,7
+Bagalkot,February,35,19,27,0.7,44,13,2,1011,7
+Bagalkot,March,38,22,30,7.1,39,14,3,1009,7
+Bagalkot,April,40,25,33,11.5,37,16,3,1006,7
+Bagalkot,May,40,26,33,19.9,42,18,4,1004,7
+Bagalkot,June,35,24,30,62.2,63,21,4,1003,7
+Bagalkot,July,32,23,28,113.7,70,21,4,1003,7
+Bagalkot,August,32,23,27,101.0,71,21,3,1005,7
+Bagalkot,September,32,23,27,103.8,72,21,3,1006,7
+Bagalkot,October,33,21,27,59.5,60,18,2,1009,7
+Bagalkot,November,32,19,26,13.3,56,16,2,1011,7
+Bagalkot,December,32,16,24,2.3,50,13,2,1013,7
+Bangalore Rural,January,29,16,23,1.0,58,13,4,1013,6
+Bangalore Rural,February,31,18,24,7.5,49,12,4,1011,7
+Bangalore Rural,March,33,20,27,22.6,46,13,4,1009,7
+Bangalore Rural,April,34,22,28,85.6,53,17,3,1007,7
+Bangalore Rural,May,33,22,27,124.8,65,19,5,1006,7
+Bangalore Rural,June,30,21,25,94.8,73,19,8,1006,7
+Bangalore Rural,July,29,20,24,138.3,77,19,9,1006,6
+Bangalore Rural,August,28,20,24,170.0,78,19,7,1007,6
+Bangalore Rural,September,29,20,24,176.6,76,19,6,1008,7
+Bangalore Rural,October,29,20,24,116.9,74,18,4,1010,6
+Bangalore Rural,November,28,18,23,79.2,73,17,3,1011,6
+Bangalore Rural,December,28,17,22,11.2,68,15,4,1012,6
+Gulbarga,January,32,16,24,4.4,48,12,2,1013,7
+Gulbarga,February,35,19,27,0.7,44,13,2,1011,7
+Gulbarga,March,38,22,30,7.1,39,14,3,1009,7
+Gulbarga,April,40,25,33,11.5,37,16,3,1006,7
+Gulbarga,May,40,26,33,19.9,42,18,4,1004,7
+Gulbarga,June,35,24,30,62.2,63,21,4,1003,7
+Gulbarga,July,32,23,28,113.7,70,21,4,1003,7
+Gulbarga,August,32,23,27,101.0,71,21,3,1005,7
+Gulbarga,September,32,23,27,103.8,72,21,3,1006,7
+Gulbarga,October,33,21,27,59.5,60,18,2,1009,7
+Gulbarga,November,32,19,26,13.3,56,16,2,1011,7
+Gulbarga,December,32,16,24,2.3,50,13,2,1013,7
